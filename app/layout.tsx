@@ -24,8 +24,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={mono.className}>
         <main className="flex flex-col items-center ">
-          <div className="mt-48 w-[700px]">
-            <Navbar /> {children} <Footer />
+          <div className="mt-24 w-[700px]">
+            <Navbar />
+            {children}
+            <Footer />
           </div>
         </main>
       </body>

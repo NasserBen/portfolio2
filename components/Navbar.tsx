@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
             currentPath === "/" ? "underline" : ""
           }`}
         >
-          <Link href="/">NB</Link>
+          <Link href="/">Nasser Ben</Link>
         </p>
 
         <div className="flex">

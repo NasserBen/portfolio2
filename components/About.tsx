@@ -1,5 +1,6 @@
 import Image from "next/image";
 import aboutImage from "../public/assets/about.jpeg";
+import Link from "next/link";
 
 const About: React.FC = () => {
   return (
@@ -25,8 +26,22 @@ const About: React.FC = () => {
         </p>
         <p className=" text-gray-600 mt-4">
           I am currently expanding my knowledge in Next.js, React Native, AWS,
-          Docker, and Fast API. When I am not learning, you can find me keeping
-          up to date with the latest tech or catch me playing soccer.
+          Docker, and Fast API. For hackathons, I have been to{" "}
+          <Link
+            href="https://bearhack.com"
+            className="text-blue-500 hover:underline hover:text-color-600"
+          >
+            Bearhack
+          </Link>{" "}
+          and{" "}
+          <Link
+            href="https://www.designverseucr.org/"
+            className="text-blue-500 hover:underline hover:text-color-600"
+          >
+            Designverse
+          </Link>
+          . When I am not learning, you can find me keeping up to date with the
+          latest tech or catch me playing soccer.
         </p>
       </div>
     </section>
