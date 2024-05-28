@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
             <span>{text}</span>
           ) : (
             <>
-              👋 Hey I'm Nasser Ben!
+              👋 Hey I&lsquo;m Nasser Ben!
               <br />
               👨‍💻 I am a fullstack web developer.
               <br />

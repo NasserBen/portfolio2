@@ -6,8 +6,8 @@ const Skills = () => {
   return (
     <div>
       <div className="flex justify-center items-center flex-wrap">
-        {skillList.map((skill) => (
-          <div className="flex w-1/4">
+        {skillList.map((skill, index) => (
+          <div key={index} className="flex w-1/4">
             <Image
               className="mr-2 mb-2"
               src={skill.image}
